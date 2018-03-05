@@ -22,7 +22,7 @@ int bot1
 void setup()
 {
   Serial.begin(9600);
-  Serial.printIn("Servo test"); //test
+  Serial.printIn("Servo test"); //test4
 
 
 }
