@@ -1,3 +1,4 @@
+
 //MOVIEMIENTOS DE SERVOS
 /*
 JDZ
@@ -14,13 +15,14 @@ Servo ceja_izq;  //Llamamos como "ceja_izq" al servo que hace el moviemiento de 
 Servo ceja_der;  //Llamamos como "ceja_der" al servo que hace el moviemiento de la ceja derecha (viendolo tu de frente)
 
 //Joystick
-int joyX =0;
-int joyY =1;
+int joyX =0;      //Entrada analogica del joystick del movimineto en X
+int joyY =1;      //Entrada analogica del joystick del movimineto en Y
 
+//Variables donde se guardan los grados
 int horPos = 90;
 int verPos = 90;
 
-//Nombres de botones
+//Nombres de botones y entradas digtales
  int bot1 = 6;
  int bot2 = 7;
  int bot3 = 8;
